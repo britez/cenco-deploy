@@ -1,0 +1,62 @@
+{
+  "projects": [
+    {
+      "id":1,
+      "name":"Activos REST",
+      "description": "Microservicio gradle con spring-boot Release 2",
+      "scopes": [
+        {
+          "id": 1,
+          "name": "prod",
+          "version": "v1.1.0.1"
+        },
+        {
+          "id": 2,
+          "name": "uat",
+          "version": "v1.1.0.4"
+        },
+        {
+          "id": 3,
+          "name": "test",
+          "version": "v1.1.0.5"
+        }
+      ],
+      "versions": [
+        {
+          "id":1,
+          "branch": "master",
+          "value": "v1.1.0.5",
+          "url": "http://google.com"
+        },
+        {
+          "id":2,
+          "branch": "master",
+          "value": "v1.1.0.4",
+          "url": "http://google.com"
+        },
+        {
+          "id":3,
+          "branch": "master",
+          "value": "v1.1.0.3",
+          "url": "http://google.com"
+        },
+        {
+          "id":4,
+          "branch": "master",
+          "value": "v1.1.0.2",
+          "url": "http://google.com"
+        },
+        {
+          "id":5,
+          "branch": "master",
+          "value": "v1.1.0.1",
+          "url": "http://google.com"
+        }
+      ]
+    },
+    {"id":2,"name":"Comunes REST", "description": "Microservicio gradle con spring-boot Release 2"},
+    {"id":3,"name":"Bridge MQ", "description": "Orquestador de llamadas a las colas MQ de AS400"},
+    {"id":4,"name":"Convivencia REST", "description": "Microservicio gradle con spring-boot Release 2"},
+    {"id":5,"name":"Puntos REST", "description": "Microservicio gradle con spring-boot Release 2"}
+  ]
+}

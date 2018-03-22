@@ -1,0 +1,27 @@
+@import '~bootstrap/scss/bootstrap';
+@import 'open-iconic-bootstrap';
+@import 'fonts';
+@import 'variables';
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Circular Book';
+}
+
+body {
+  background: $white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Circular Bold';
+}
+
+.form-control:focus {
+   outline: none;
+   box-shadow: none;
+   border-color: none;
+}
+
+@import '../nav';
+@import '../pages/home';

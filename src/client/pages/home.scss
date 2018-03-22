@@ -1,0 +1,63 @@
+$gray: #c0c0c0;
+
+#home {
+
+  text-align: center;
+
+  h3 {
+    padding: 40px 0 20px 0;
+  }
+
+  .list-group {
+    text-align: left;
+  }
+
+  p {
+    color: $gray;
+  }
+
+  span.oi-eye {
+    position: absolute;
+    top: 50%;
+    margin: -8px -30px;
+    left: 100%;
+    font-size: 20px;
+    opacity: 0;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+  }
+
+  span.oi-magnifying-glass {
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    color: $gray;
+    right: 0;
+    margin-right: 75px;
+  }
+
+  .list-group-item:hover {
+    span.oi-eye {
+      margin: -8px -32px;
+      opacity: 1;
+    }
+  }
+
+  .search {
+    display: flex;
+
+    div:first-child {
+      flex-grow: 1;
+      padding: 0 10px 0 0;
+    }
+
+    .btn {
+      padding: 9px 8px;
+      text-align: center;
+    }
+  }
+}
+
+@import '../components/scope.scss';

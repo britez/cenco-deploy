@@ -1,0 +1,27 @@
+@import '../styles/variables';
+
+.scope {
+  margin: 0 0 10px 0;
+
+  .scope-wrapper {
+    padding: 15px;
+
+    h6 {
+      text-transform: uppercase;
+
+      span {
+        font-size: 12px;
+      }
+    }
+
+    .version {
+      position: absolute;
+      top: 15px;
+      right: 30px;
+      color: $white;
+      padding: 3px 10px;
+      border-radius: 15px;
+      font-size: 12px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+#nav {
+  .navbar-brand {
+      padding: 5px 15px;
+  }
+
+  .sidebar {
+    height: 100%;
+    display: none;
+  }
+
+  .sidebar {
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+  }
+
+  .sidebar.toggled {
+    display: inline-block;
+  }
+
+}
